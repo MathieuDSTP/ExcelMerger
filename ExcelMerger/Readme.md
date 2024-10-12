@@ -25,5 +25,5 @@ ExcelMerger -s <sourceDirectory> -n <sheetName> -o <outputFilePath>
 ## Example
 To merge sheet named "Data" and "Summary" from all Excel files in the `C:/ExcelFiles` directory into a single file named `Merged.xlsx`, use:
 ```powershell
-ExcelMerger -s "C:\ExcelFiles" -n "Sheet1" -o "C:\Merged\output.xlsx"
+ExcelMerger -s "C:\ExcelFiles" -n "Data,Summary" -o "C:\Merged\output.xlsx"
 ```
